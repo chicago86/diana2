@@ -1,0 +1,214 @@
+.block_five_box_title {
+    display: flex;
+    flex-direction: column;
+    max-width: 870px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    .heading {
+        font-size: 64px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 2%;
+    }
+    .title {
+        font-size: 24px;
+        line-height: 43px;
+
+        span {
+            font-style: italic;
+            font-weight: 600;
+        }
+    }
+}
+.group_five {
+    position: relative;
+}
+
+.vector1 {
+    position: absolute;
+    left: 125px;
+}
+.moon3 {
+    position: absolute;
+    top: 106px;
+    left: 490px;
+}
+.title_box_one {
+    position: relative;
+    width: 425px;
+    top: 240px;
+    left: 20px;
+    .heading_box_one {
+        position: relative;
+        font-size: 20px;
+        font-style: italic;
+        line-height: 32px;
+
+        span {
+            position: relative; 
+        }
+
+        span::before {
+            content: "";
+            display: block;
+            position: absolute;
+            left: -20px;
+            top: 4px;
+            width: 25px; 
+            height: 25px;
+            background-image: url(./img/one.svg);
+            background-size: contain; 
+            background-repeat: no-repeat;
+        }
+        span::after {
+            content: "";
+            display: block;
+            position: absolute;
+            left: -3px; 
+            top: 25px;
+            width: 130px; 
+            height: 25px;
+            background-image: url(./img/line1.svg);
+            background-size: contain; 
+            background-repeat: no-repeat;
+        }
+    }
+
+    .span_box_one {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 32px;
+    }
+}
+.vector2 {
+    position: absolute;
+    left: 65px;
+    top: 400px;
+}
+.moon4 {
+    position: absolute;
+    top: 500px;
+    left: 82px;
+}
+.title_box_two {
+    position: relative;
+    width: 425px;
+    top: 300px;
+    left: 365px;
+    .heading_box_two {
+        position: relative;
+        font-size: 20px;
+        font-style: italic;
+        line-height: 32px;
+
+        span {
+            position: relative;
+            font-size: 20px;
+            font-style: italic;
+            line-height: 32px;
+        }
+
+        span::before {
+            content: "";
+            display: block;
+            position: absolute;
+            left: -20px; 
+            top: 0;
+            width: 25px;
+            height: 25px;
+            background-image: url(./img/two.svg); 
+            background-size: contain; 
+            background-repeat: no-repeat;
+        }
+        span::after {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 10px; 
+            top: 15px;
+            width: 130px; 
+            height: 25px;
+            background-image: url(./img/line2.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .span_box_two {
+        font-size: 20px;
+        line-height: 36px;
+        font-style: italic;
+        font-weight: 500;
+    }
+}
+.vector3 {
+    position: absolute;
+    left: 680px;
+    top: 495px;
+}
+.moon5 {
+    position: absolute;
+    top: 560px;
+    left: 995px;
+}
+
+.title_box_three {
+    position: relative;
+    width: 425px;
+    left: 840px;
+    top: 355px;
+
+    .span_box_three {
+        position: relative;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .span_box_three::before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: -20px; 
+        top: 0;
+        width: 25px;
+        height: 25px;
+        background-image: url(./img/three.svg); 
+        background-size: contain; 
+        background-repeat: no-repeat;
+    }
+    .span_box_three::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 3px; 
+        top: 23px;
+        width: 44px; 
+        height: 25px;
+        background-image: url(./img/line3.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .heading_box_three{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .span_italic_three{
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 500;
+        font-style: italic;
+    }
+}
+
+.vector4 {
+    position: absolute;
+    left: 540px;
+    top: 780px;
+}
+.moon6 {
+    position: absolute;
+    top: 980px;
+    left: 560px;
+}
