@@ -1,0 +1,162 @@
+.group_moon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        margin: 15px 0;
+    }
+}
+.ellips_group {
+    position: relative; /* Устанавливаем контекст для вложенных элементов */
+    left: -20px;
+    height: 500px;
+    z-index: 11;
+}
+
+
+.ellips_group {
+    position: relative;
+    height: 500px;
+    z-index: 11;
+
+    .one {
+        position: absolute; /* Позиционирование внутри группы */
+        left: 450px;
+        font-size: 24px;
+        max-width: 200px;
+
+        span {
+            font-style: italic;
+            font-weight: 500;
+        }
+    }
+
+    .ellipse_one {
+        position: absolute;
+        left: 150px;
+        top: 45px;
+
+        .arrow_first {
+            position: absolute;
+            top: 133px;
+            bottom: 5px;
+        }
+
+        .ellipse_first {
+            position: absolute;
+        }
+    }
+
+    .two {
+        position: absolute;
+        left: 30px;
+        top: 215px;
+        font-size: 24px;
+        max-width: 200px;
+
+        span {
+            font-style: italic;
+            font-weight: 500;
+        }
+    }
+
+    .ellipse_second {
+        position: absolute;
+        top: 310px;
+        left: 75px;
+    }
+
+    .arrow_second {
+        position: absolute;
+        top: 454px;
+        left: 205px;
+    }
+
+    .three {
+        position: absolute;
+        left: 250px;
+        top: 455px;
+        font-size: 24px;
+        max-width: 200px;
+
+        span {
+            font-style: italic;
+            font-weight: 500;
+        }
+    }
+
+    .arrow_three {
+        position: absolute;
+        left: 679px;
+        bottom: 92px;
+    }
+
+    .ellipse_three {
+        position: absolute;
+        left: 455px;
+        bottom: 35px;
+    }
+
+    .four {
+        position: absolute;
+        left: 720px;
+        bottom: 100px;
+        font-size: 24px;
+        max-width: 200px;
+
+        span {
+            font-style: italic;
+            font-weight: 500;
+        }
+    }
+
+    .arrow_four {
+        position: absolute;
+        left: 1074px;
+        bottom: 377px;
+    }
+
+    .ellipse_four {
+        position: absolute;
+        left: 830px;
+        bottom: 155px;
+    }
+
+    .five {
+        position: absolute;
+        left: 1030px;
+        bottom: 410px;
+        font-size: 24px;
+        width: 200px;
+
+        span {
+            font-style: italic;
+            font-weight: 500;
+        }
+    }
+
+    .arrow_five {
+        position: absolute;
+        left: 673px;
+        bottom: 514px;
+    }
+
+    .ellipse_five {
+        position: absolute;
+        left: 675px;
+        bottom: 520px;
+    }
+}
+.heading-center{
+    position: absolute;
+    width: 400px;
+    text-align: center;
+    top: 160px;
+    left: 380px;
+    h3{
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38.4px;
+        letter-spacing: -2%;
+    }
+}

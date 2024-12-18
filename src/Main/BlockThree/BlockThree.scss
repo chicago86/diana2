@@ -1,0 +1,58 @@
+.block_three{
+    display: flex;
+}
+
+.block_three_box{
+    display: flex;
+    justify-content: center;
+}
+.block_heading{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.heading_part_one {
+    span {
+        position: relative; 
+        display: inline-block; 
+        z-index: 1; 
+
+        &::before {
+            content: ''; 
+            position: absolute; 
+            top: -15px;
+            left: -20px;
+            width: 130%;
+            height: 130%;
+            background-image: url(./img/Vector238.svg); 
+            background-repeat: no-repeat;
+            background-size: contain; 
+            z-index: -1; 
+        }
+    }
+}
+
+.heading_part_two{
+    text-align: end;
+}
+
+.arrow{
+    text-align: center;
+}
+.block_three_box_text {
+    font-size: 24px;
+    width: 660px;
+    line-height: 43px;
+    margin-left: auto; 
+    text-align: left; 
+
+    span {
+        font-weight: 600;
+        font-style: italic;
+    }
+    margin-bottom: 160px;
+}

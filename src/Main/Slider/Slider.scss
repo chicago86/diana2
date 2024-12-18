@@ -1,0 +1,57 @@
+.slider-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+
+    .controls {
+        display: flex;
+        margin: 50px 40px;
+
+        button {
+            position: relative;
+            width: 90px;
+            height: 52px;
+            border: none;
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            left: 50%;
+
+            &.left-arrow {
+                background-image: url("./img/lefft.svg");
+                border-radius: 10px;
+            }
+
+            &.right-arrow {
+                margin-left: 20px;
+                background-image: url("./img/rigtt.svg");
+              
+            }
+        }
+    }
+
+    .slider-wrapper {
+        overflow: hidden;
+        width: 100%;
+        border: 1px solid transparent;
+    }
+
+    .slider {
+        display: flex;
+    }
+
+    .slide {
+        text-align: center;
+        font-size: 24px;
+        padding: 25px;
+        border-right: 1px solid #000000;
+        background-color: transparent;
+
+        span {
+            display: block;
+            margin: 20px 0;
+            font-size: 48px;
+            font-weight: bold;
+        }
+    }
+}
