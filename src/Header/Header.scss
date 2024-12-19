@@ -121,6 +121,10 @@ h1 {
     cursor: pointer;
     margin-bottom: 40px;
 }
+.button_in_header_section:hover{
+    background-color: black;
+    color: white;
+}
 
 .footer_part_in_header {
     position: relative;
@@ -146,6 +150,7 @@ h1 {
 .arrowStyle {
     height: 74px;
     margin-bottom: 40px;
+    animation: bounce 3s ease-in-out infinite; 
 }
 
 .text_border_container {
@@ -178,5 +183,13 @@ h1 {
         background-image: url("./img/Group 1498.png");
         background-repeat: no-repeat;
         z-index: 11;
+    }
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20px); 
     }
 }
