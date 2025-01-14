@@ -35,38 +35,25 @@
         width: 100%;
         border: 1px solid transparent;
     }
-    .author-info{
-        display: flex;
-    
-        align-items: flex-start;
-        img{
-            width: 60px;
-            height: 60px;
-            margin-right: 10px;
-        }
-        div{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start
-        }
-    }
 
     .slider {
         display: flex;
     }
-    .slide-content{
-        p{
-            text-align: justify;
-            font-size: 20px;
-        }
-       
+    .autor_pos{
+        display: flex;
+        margin: 40px;
+    }
+    .text_sliderP{
+        margin-bottom: 40px;
     }
 
     .slide {
         text-align: center;
         font-size: 24px;
         padding: 25px;
-        border-right: 1px solid #000000;
+        border: 1px solid #000000;
+        margin-right: 20px;
+        border-radius: 10px;
         background-color: transparent;
 
         span {

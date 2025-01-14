@@ -4,6 +4,7 @@ import BlockThree from './BlockThree/BlockThree';
 import BlockFour from './BlockFour/BlockFour';
 import BlockFive from './BlockFive/BlockFive';
 import BlockSix from './BlockSix/BlockSix'
+import BlockSeven from './BlockSeven/BlockSeven';
 import Accordion from './Accordion/Accordion'
 function Main() {
   return (
@@ -14,6 +15,7 @@ function Main() {
     <BlockFive></BlockFive>
     <BlockSix></BlockSix>
     <Accordion></Accordion>
+    <BlockSeven></BlockSeven>
     </>
   );
 }
