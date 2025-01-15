@@ -1,0 +1,104 @@
+.block_box_eight {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    .left_eight {
+        position: absolute;
+        top: 35px;
+        left: -5px;
+    }
+    .planet_eight {
+        position: absolute;
+        top: 235px;
+        left: -3px;
+    }
+    .bold_text {
+        font-size: 32px;
+        line-height: 44px;
+        max-width: 900px;
+        font-weight: 600;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .heading_one {
+        font-size: 64px;
+        text-transform: uppercase;
+        letter-spacing: -2%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .row_eight {
+        display: flex;
+    }
+    .text_item_eight {
+        width: 50%;
+        p {
+            font-size: 24px;
+            line-height: 43px;
+            margin-bottom: 40px;
+            span {
+                font-style: italic;
+            }
+        }
+    }
+}
+
+.block_heading_eight {
+    margin-bottom: 100px;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+    .heading_part_one_block_eight_first {
+        text-align: center;
+        position: relative;
+        left: -110px;
+    }
+    span {
+        position: relative;
+        left: 450px;
+    }
+}
+
+.arrow_and_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+    img {
+        margin-bottom: 80px;
+    }
+}
+.block_eight_button {
+    margin: 0 auto;
+    button {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 400;
+        padding: 12px 22px;
+        font-family: Inter, sans-serif;
+        background-color: black;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-bottom: 40px;
+        color: white;
+    }
+
+    button:hover {
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+    }
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+}
