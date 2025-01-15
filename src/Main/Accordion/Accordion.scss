@@ -50,6 +50,7 @@
     transition: background-color 0.3s ease;
     display: flex;
     align-items: flex-start;
+
 }
 
 .accordion-button:hover {
@@ -92,6 +93,3 @@
 .accordion-button:not(.collapsed){
     background-color: white;
 }
-// .accordion-button{
-//     padding: 25px 5px 5px 5px;
-// }

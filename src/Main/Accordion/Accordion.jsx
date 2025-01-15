@@ -23,7 +23,7 @@ function Accordion() {
                                         Products & services optimization
                                     </button>
                                 </h2>
-                                <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
                                         <ul>
                                             <li>Making sure your offerings are <span>not just good, but great</span> — aligned with market demands and your company’s strengths.</li>
@@ -96,7 +96,7 @@ function Accordion() {
                                         Channel-specific strategies
                                     </button>
                                 </h2>
-                                <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
                                         <ul>
                                             <li>Partnering with customer-facing teams to create tailored strategies for their respective channels.</li>
@@ -169,7 +169,7 @@ function Accordion() {
                                     Identity and tone of voice
                                     </button>
                                 </h2>
-                                <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
                                         <ul>
                                             <li>Collaborating with marketing, sales, design, and vision owners to craft a consistent tone of voice and visual identity.</li>
